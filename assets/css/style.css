@@ -53,5 +53,20 @@
 }
 
 .header_inside {
+	text-align: center;
+	margin-top: 10vw;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+	color: rgba(255, 255, 255, 0.6);
+}
 
+.header_boton {
+	text-decoration: none;
+	border:1px solid #fafafa;
+	padding: 1vw;
+	border-radius: 10px;
+}
+
+.header_boton:hover {
+	text-decoration: none;
 }
