@@ -1,11 +1,46 @@
 /*General*/
 
-body {
-	font-family: sans-serif;
-}
 
 /*Nav Bar*/
 
 .navbar-right {
 	text-transform: uppercase;
+	margin-top: 2.5vw;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: black;
+}
+
+.navbar_logo {
+	max-width: 4.5vw;
+}
+
+.navbar_starbucks {
+	position: fixed;
+	width: 100%;
+	min-height: 7vw;
+	border-top: 10px solid #0a6242;
+	border-radius: 0;
+
+}
+
+
+@media only screen and (max-width: 767px) {
+	.navbar_logo {
+	max-width: 13.5vw;
+	}
+
+	.navbar_starbucks {
+	min-height: 24vw;
+	}
+
+	.navbar-brand {
+		padding: 3vw 0 0 3vw;
+	}
+
+	.navbar-toggle {
+		margin-bottom: 21px;
+	}
+
 }
