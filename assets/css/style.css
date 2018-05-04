@@ -1,7 +1,25 @@
 /*General*/
 
+body {
+	margin-top: 7vw;
+}
+
+h1 {
+	font-size: 3.2vw;
+}
+
 
 /*Nav Bar*/
+.navbar_starbucks {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	min-height: 7vw;
+	border-top: 10px solid #0a6242;
+	border-radius: 0;
+	top: 0;
+
+}
 
 .navbar-right {
 	text-transform: uppercase;
@@ -14,15 +32,6 @@
 
 .navbar_logo {
 	max-width: 4.5vw;
-}
-
-.navbar_starbucks {
-	position: fixed;
-	width: 100%;
-	min-height: 7vw;
-	border-top: 10px solid #0a6242;
-	border-radius: 0;
-
 }
 
 
@@ -50,23 +59,38 @@
 .header {
 	padding: 0;
 	background-image: url(../images/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .header_inside {
 	text-align: center;
-	margin-top: 10vw;
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 20px;
-	color: rgba(255, 255, 255, 0.6);
+	color: rgba(255, 255, 255, 0.9);
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+	padding: 6vw 0 6vw 0;
+}
+
+.header_inside p {
+	padding: 0 0 1vw 0;
 }
 
 .header_boton {
 	text-decoration: none;
-	border:1px solid #fafafa;
-	padding: 1vw;
-	border-radius: 10px;
+	border:1px solid  rgba(255, 255, 255, 0.9);
+	padding: 1vw 3vw 1vw 3vw;
+	border-radius: 20px;
+	color:  rgba(255, 255, 255, 0.9);
 }
 
 .header_boton:hover {
 	text-decoration: none;
+	color:  rgba(255, 255, 255, 0.6);
+}
+
+.header_icon {
+	font-size: 3vw;
+	padding: 1vw;
 }
