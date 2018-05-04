@@ -8,6 +8,16 @@ h1 {
 	font-size: 3.2vw;
 }
 
+@media only screen and (max-width: 767px){
+	body {
+		margin-top: 24vw;
+	}
+
+	h1 {
+		font-size: 11.2vw;
+	}
+}
+
 
 /*Nav Bar*/
 .navbar_starbucks {
@@ -93,4 +103,14 @@ h1 {
 .header_icon {
 	font-size: 3vw;
 	padding: 1vw;
+}
+
+@media only screen and (max-width: 767px){
+	.header_boton {
+		padding: 3vw 6vw 3vw 6vw
+		}
+
+	.header_icon {
+		font-size: 6vw;
+	}
 }
