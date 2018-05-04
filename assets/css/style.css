@@ -44,3 +44,14 @@
 	}
 
 }
+
+/*Header*/
+
+.header {
+	padding: 0;
+	background-image: url(../images/banner1.jpg);
+}
+
+.header_inside {
+
+}
