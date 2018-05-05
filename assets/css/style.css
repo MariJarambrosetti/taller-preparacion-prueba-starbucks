@@ -14,12 +14,13 @@ h1 {
 	}
 
 	h1 {
-		font-size: 11.2vw;
+		font-size: 8vw;
 	}
 }
 
 
 /*Nav Bar*/
+
 .navbar_starbucks {
 	position: fixed;
 	z-index: 100;
@@ -67,13 +68,12 @@ h1 {
 /*Header*/
 
 .header {
-	padding: 0;
 	background-image: url(../images/banner1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.header_inside {
+.inside {
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 20px;
@@ -81,13 +81,15 @@ h1 {
 	margin-top: 3vw;
 	margin-bottom: 3vw;
 	padding: 6vw 0 6vw 0;
+	
 }
 
-.header_inside p {
-	padding: 0 0 1vw 0;
+.inside p {
+	padding: 0 2vw 1vw 2vw;
+	font-size: 1.5em;
 }
 
-.header_boton {
+.boton {
 	text-decoration: none;
 	border:1px solid  rgba(255, 255, 255, 0.9);
 	padding: 1vw 3vw 1vw 3vw;
@@ -95,22 +97,45 @@ h1 {
 	color:  rgba(255, 255, 255, 0.9);
 }
 
-.header_boton:hover {
+.boton:hover {
 	text-decoration: none;
 	color:  rgba(255, 255, 255, 0.6);
 }
 
-.header_icon {
+.icon {
 	font-size: 3vw;
 	padding: 1vw;
 }
 
 @media only screen and (max-width: 767px){
-	.header_boton {
+	.boton {
 		padding: 3vw 6vw 3vw 6vw
-		}
+	}
 
-	.header_icon {
+	.icon {
 		font-size: 6vw;
 	}
+
+	.inside p {
+		font-size: 1em; 
+		padding: 0 10vw 3vw 10vw;
+	}
+}
+
+/*Featured-1*/
+
+.featured-1 {
+	background-image: url(../images/stars2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 1vw;
+}
+
+/*Featured-2*/
+
+.featured-2 {
+	background-image: url(../images/beans.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 1vw;
 }
