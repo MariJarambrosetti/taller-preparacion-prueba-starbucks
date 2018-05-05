@@ -1,1 +1,1 @@
-[Starbucks Preparacion](https://empieza.desafiolatam.com "Desafío Latam").
+[Starbucks Preparacion](https://marijarambrosetti.github.io/taller-preparacion-prueba-starbucks/assets/index.html "Preparación para la prueba").
